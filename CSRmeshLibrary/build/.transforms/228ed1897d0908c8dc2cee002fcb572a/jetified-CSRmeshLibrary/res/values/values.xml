@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Shared/Jenkins/Home/jobs/Android_CSRmesh_2.1_Release/workspace/CSRmeshDemo/library_wrapper/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="expecting_key">Expecting key</string>
+    <string name="got_association_request">Got association request</string>
+    <string name="got_association_response">Got association response</string>
+    <string name="got_confirm_rsp">Got confirm rsp</string>
+    <string name="public_key_received">Public key received</string>
+    <string name="remote_confirmation_received">Remote confirmation received. Sending random response.</string>
+    <string name="requesting_MASP_confirmation">Requesting MASP confirmation</string>
+    <string name="sending_encrypted_device_id">Sending encrypted device id</string>
+    <string name="sending_encrypted_network_key_part">Sending encrypted network key part</string>
+</resources>

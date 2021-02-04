@@ -1,0 +1,449 @@
+<resources>
+    <string name="app_name">Stupid CSR DEMO</string>
+    <string name="cloudport">pref_port_cloud</string>
+    <string name="title_section_0">Favourites</string>
+    <string name="title_section_2">Events</string>
+    <string name="title_section_3">Areas</string>
+    <string name="title_section_4">CSRmesh devices</string>
+    <string name="title_section_5">Controllers</string>
+    <string name="title_section_6">Import place</string>
+    <string name="title_section_7">Settings</string>
+    <string name="title_section_8">About</string>
+    <string name="title_section_9">Developer options</string>
+    <string name="title_section_100">Manage places</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="logout">LOG OUT</string>
+
+    <string name="ok">OK</string>
+
+    <string name="manage_places">Manage places</string>
+    <string name="join_place">Join Place</string>
+    <string name="join_a_place">Joining a Place</string>
+    <string name="join_a_place_message">Add this device in the "Controllers" section of the inviting device and write the following PIN when requested.</string>
+
+    <!-- Actions -->
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+
+    <!-- Lock controller view -->
+    <string name="operation_timeout">Operation has timed out.</string>
+
+    <!-- Temperature controller view -->
+    <string name="desired_temperature">Desired temperature (°C)</string>
+    <string name="current_temperature">Current temperature (°C)</string>
+    <string name="unknown_temperature_value" translatable="false">-</string>
+
+    <!-- Color control view -->
+    <string name="set_white_dialog_title">Set White Level</string>
+    <string name="set_rgb_dialog_title">Set RGB</string>
+    <string name="red_label">Red</string>
+    <string name="green_label">Green</string>
+    <string name="blue_label">Blue</string>
+    <string name="rgb_prompt">Enter RGB values in Hex</string>
+
+    <string name="black">Black</string>
+    <string name="no_color">No Color</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="locked">Locked</string>
+
+
+
+    <!-- Dialogs -->
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_action_delete">Delete</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="dialog_error_ble_not_enabled">Bluetooth not enabled</string>
+    <string name="error_message_please_enable_bluetooth">Please enable bluetooth in settings and restart this application.</string>
+    <string name="error_message_enable_bluetooth"> Would you like Bluetooth to be enabled in the settings?</string>
+    <string name="dialog_error_ble_not_supported"> Bluetooth Low Energy not available</string>
+    <string name="error_message_bluetooth_le_not_supported">Sorry, this device does not support Bluetooth Low Energy.</string>
+    <string name="dialog_error_Location_not_enabled">Location not enabled</string>
+    <string name="error_message_enable_Location">Would you like Location to be enabled in the settings?</string>
+    <!-- Detail device view -->
+    <string name="areas">AREAS</string>
+    <string name="device_name">DEVICE NAME</string>
+    <string name="edit_places">EDIT PLACES</string>
+    <string name="save">Save</string>
+    <string name="create">Create</string>
+    <string name="device_not_found">Device not found</string>
+    <string name="delete_device">Delete device</string>
+    <string name="retrieving_info">Retrieving some required info, please retry in few seconds.</string>
+    <string name="delete_device_double_check">Are you sure that you want to delete this device?</string>
+    <string name="forcing_delete_device">Device wasn\'t found. Do you want to delete it anyway?"</string>
+    <string name="device_name_l">Device name</string>
+    <string name="invalid_name">Device name invalid</string>
+    <string name="already_exists"> name already exists </string>
+    <string name="name_valid"> Please enter name</string>
+    <string name="removed_successfully"> removed successfully.</string>
+    <string name="event" translatable="false">Event! </string>
+    <string name="zero_or_more_tenants_found_in_gateway_when_deleting_it">Zero or more than one tenant found in the gateway when deleting it.</string>
+    <string name="zero_or_more_sites_found_in_gateway_when_deleting_it">Zero or more than one site found in the gateway when deleting it.</string>
+    <string name="unknown_error">Unknown error: </string>
+    <string name="expected_operation_message_id" translatable="false"> - Expected Operation Message ID: </string>
+    <string name="not_found_error">Not Found Error: </string>
+    <string name="could_not_cancel">Could not cancel!</string>
+    <string name="error_getting_model_info">Error getting model information</string>
+    <string name="error_getting_group_info">Error getting group information</string>
+    <string name="error_removing_device">Error removing the device</string>
+
+    <!-- Controller -->
+    <string name="controller_not_found">Controller not found</string>
+    <string name="controller_name">CONTROLLER NAME</string>
+    <string name="general_information_title">General information</string>
+    <string name="general_information_uuid_address">UUID/ADDRESS</string>
+    <string name="updates">Updates</string>
+    <string name="updated">Updated</string>
+    <string name="this_configuration_has_been_updated_the">This configuration has been updated the</string>
+    <string name="detected_controllers">Detected Controllers</string>
+    <string name="select_a_controller">Select a controller</string>
+    <string name="bluetooth_needed_to_add_controller">You need bluetooth channel ready to add new controller.</string>
+    <string name="associating_controller">Associating controller</string>
+    <string name="place_joined">Place joined.</string>
+    <string name="error_joining_place">Error joining place. Please try again.</string>
+    <string name="this_controller_is_already_a_member_of_the_mesh">This controller is already a associated with the current place.</string>
+    <string name="update_this_device_from_the_admin_controller">Waiting for inputs. \nGo to Controllers and click update from the admin controller.</string>
+    <string name="you_cannot_import_a_place_until_your_bluetooth_bridge_is_connected">You can not import a place until your bluetooth bridge is connected.</string>
+    <string name="you_cannot_update_a_controller_until_your_bluetooth_bridge_is_connected">You can not update a controller until your bluetooth bridge is connected.</string>
+    <string name="delete_controller_double_check">Are you sure that you want to delete this controller?</string>
+    <string name="controller_cloud_state">Gateway/Cloud state</string>
+    <string name="controller_enable_gateway">Enable Gateway &amp; Cloud</string>
+    <string name="controller_gateway_cloud_not_enabled">Gateway &amp; Cloud are not enabled.</string>
+    <string name="controller_gateway_cloud_enabled">Gateway &amp; Cloud enabled.</string>
+
+
+    <!-- Event -->
+    <string name="event_not_found">Event not found</string>
+    <string name="event_name_l">Event name</string>
+    <string name="event_type_light_color">Light colour event</string>
+    <string name="event_type_heating">Heating event</string>
+    <string name="event_on">Event on</string>
+    <string name="event_off">Event off</string>
+    <string name="activation_tip">Tap to deactivate the event</string>
+    <string name="edit_event_light_colour">Edit light colour event</string>
+    <string name="edit_event_heater">Edit heater event</string>
+    <string name="configure_light_event">Configure Light Event</string>
+    <string name="configure_heater_event">Configure Heater Event</string>
+    <string name="configure_power_event">Configure Power Event</string>
+    <string name="select_devices_for_event">Select devices</string>
+    <string name="delete_event_double_check">Are you sure that you want to delete this event?</string>
+    <string name="you_need_to_select_at_least_one_device">You need to select at least one device</string>
+    <string name="event_pattern_r_no_repeat">This event does not repeat</string>
+    <string name="event_pattern_r_every_x_hours">Repeats every %1$s hours</string>
+    <string name="event_pattern_r_every_day">Repeats every day</string>
+    <string name="event_pattern_r_selected_days">Repeats selected days</string>
+
+
+    <!-- Detail place view -->
+    <string name="place_cannot_be_deleted">Sorry the place can not be deleted. You must have at least one place.</string>
+    <string name="delete_place">Delete place</string>
+    <string name="delete_place_confirmation">Are you sure that you want to delete this place?</string>
+    <string name="error_importing_db">Error importing the database</string>
+    <string name="db_imported">Database imported</string>
+    <string name="invalid_long_name">The device name must be maximum 20 characters long!</string>
+    <string name="resetting_device">Resetting your device. Please wait...</string>
+    <string name="only_the_place_owner_can_add_new_controllers">Only the place owner can add new controllers.</string>
+    <string name="only_the_place_owner_can_add_new_devices">Only the place owner can add new devices.</string>
+    <string name="only_the_place_owner_can_share_the_place">Only the place owner can share the place.</string>
+    <string name="mesh">Mesh</string>
+    <string name="android_beam">Beam</string>
+    <string name="other">Other</string>
+
+    <!-- Wizard -->
+    <string name="new_device">New device</string>
+    <string name="auth_code">Authorization code</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="devices_discovered">Devices discovered</string>
+    <string name="set_short_code">Set short code</string>
+    <string name="short_code">Short code</string>
+    <string name="associating_device_percent">Associating device %d %</string>
+    <string name="associating_device">Associating device</string>
+    <string name="security">Security</string>
+    <string name="security_associating">If your device has been furnished with an authorisation code you have to give it here. Otherwise you acan skip this step.</string>
+    <string name="deleting_device">Deleting device</string>
+    <string name="associating_dialog1">How do you want to set up your new device?</string>
+
+    <!-- Content descriptor -->
+    <string name="cd_static_list">static list</string>
+    <string name="cd_dynamic_list">dynamic list</string>
+    <string name="cd_device_groups_list">device groups list</string>
+
+
+    <!-- Associating -->
+    <string name="add_device">Add new device</string>
+    <string name="detected_devices">Detected devices</string>
+    <string name="associating">Associating</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown">Unknown</string>
+    <string name="device">Device</string>
+    <string name="controller">Controller</string>
+    <string name="select_a_device">Select a device</string>
+    <string name="associate_device">Associate device</string>
+    <string name="associate_gateway">Associate gateway</string>
+    <string name="qr_to_uuid_fail">Failed to read UUID from QR code</string>
+    <string name="select_device">Association not possible. Select a device first.</string>
+    <string name="no_result_found">No devices found around you. We will populate them as soon as we detect them.</string>
+    <string name="device_associated">associated</string>
+    <string name="association_failed">Association has failed</string>
+    <string name="wrong_short_code">Short code field can not be empty</string>
+    <string name="wrong_auth_code">Wrong auth code. Association cancelled.</string>
+    <string name="associate_config_query_fail">Device associated but device info not received.</string>
+
+    <string name="decibel_milliwatts" translatable="false">dBm</string>
+
+    <!-- Fav devices list -->
+    <string name="no_fav_devices">You don\'t have any device or area marked as favourite. To mark them go to a device or area edit view and tap on the star icon to mark it as favourite.</string>
+    <!-- Fav activities list -->
+    <string name="no_fav_activities">Feature not implemented yet.</string>
+
+    <!-- Action list -->
+    <string name="no_events">No events found yet. To create an event tap on the "+" button.</string>
+
+    <!-- Devices list -->
+    <string name="no_devices">No devices associated yet. To associate a device tap on the "+" button.</string>
+    <string name="bluetooth_needed_to_add_devices">You need bluetooth channel ready to add new devices.</string>
+    <string name="bluetooth_selected_to_add_devices">You need bluetooth channel selected to add new devices.</string>
+    <string name="you_can_not_control_your_device_until_bridge_is_connected">You can not control your device until Bluetooth bridge is connected.</string>
+
+    <!-- Areas list -->
+    <string name="no_areas">No areas found. To create an area tap on the "+" button.</string>
+    <string name="area_name">AREA NAME</string>
+    <string name="area_name_1">Area name</string>
+    <string name="devices">DEVICES</string>
+
+    <!-- Area detail-->
+    <string name="area_delete_error">Save the area before deleting it or just click back to not save it.</string>
+    <string name="area_add_device_error">Save the area before adding devices to it.</string>
+    <string name="delete_confirm_title">Delete area</string>
+    <string name="delete_confirm">Are you sure that you want to delete this area?</string>
+    <string name="delete_anyway_confirm">Areas couldn\'t be deleted from the device. Do you want to delete the area anyway?</string>
+    <string name="maximum_areas">Maximum areas reached. Un-select one area first.</string>
+    <string name="delete_areas_progress">Please wait whilst deleting areas on the device.</string>
+
+    <!-- Detail device view -->
+    <string name="updating_mode">Select updating mode</string>
+    <string name="otau_picker_message">Choose the way you want to update your device or click back to cancel</string>
+    <string name="otau_mode">OTAU mode</string>
+    <string name="update_device">Update device</string>
+    <string name="otau_warning">Enter OTAU mode? You will no longer be able to control the device.</string>
+
+    <string name="fav_button">Favourite</string>
+    <string name="attention_button">Attention</string>
+    <string name="otau_button">Enter OTAU</string>
+    <string name="gaia_button">GAIA mode</string>
+    <string name="device_details">DETAILS</string>
+    <string name="waiting_info">Waiting</string>
+    <string name="battery_level">Battery</string>
+    <string name="firmware_version">Firmware Version</string>
+    <string name="not_available">Not Avail.</string>
+    <!-- Places list -->
+    <string name="my_place">My place</string>
+    <string name="imported_place">Imported place</string>
+    <string name="place_not_found">Place not found</string>
+    <string name="place_name">Place name</string>
+    <string name="network_key">Network key</string>
+    <string name="show_password">Show password</string>
+    <string name="edit_place">Edit place</string>
+    <string name="update_database">Import database</string>
+    <string name="export_database_from_file">Export to file</string>
+    <string name="import_database_from_file">Import from file</string>
+    <string name="import_database_from_cloud">Import from %1$s</string>
+    <string name="backup_database_in_cloud">Backup to %1$s</string>
+    <string name="share_database">Share Database</string>
+    <string name="new_place">New place</string>
+    <string name="icon">Icon</string>
+    <string name="color">Color</string>
+    <string name="invalid_network_key">Network key invalid</string>
+    <string name="my_places">My places</string>
+    <string name="create_new_place">+ Create a new place</string>
+    <string name="places_shared_with_me">PLACES SHARED WITH ME</string>
+    <string name="how_do_you_want_to_export_your_place">How do you want to export your place?</string>
+
+
+    <!-- Importing / Exporting database -->
+
+    <string name="send_to">Send file to</string>
+    <string name="import_config_complete">Import configuration complete</string>
+    <string name="import_config_error">Error importing configuration</string>
+    <string name="android" translatable="false">Android</string>
+    <string name="ios" translatable="false">iOS</string>
+    <string name="share_device_type">Do you want to use Android Beam to share your configuration?</string>
+    <string name="share_configuration">I would like to share my mesh configuration with you.</string>
+    <string name="error_sharing_configuration">It wasn\'t possible to share the configuration.</string>
+    <string name="phone_together">Put your phones together to share the file...</string>
+    <string name="error_opening_file">Error trying to open a file</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="invalid_file_extension">File extension not valid. Only zip files are accepted.</string>
+    <string name="confirm_replacing_db">Your database for this place will be overwritten and you will lose information about current devices. Do you want to continue?</string>
+    <string name="import_notify_title">Database Import</string>
+    <string name="import_notify">The database will be imported when the place is created</string>
+    <string name="export_db_id_error">Make sure the Recipient ID is within the range [8002 - FFFF]</string>
+    <string name="error_while_sharing">There was an error while sharing the database.</string>
+    <string name="timeout_while_sharing">Timeout. Ensure the controller importing the DB has the same receiver ID you just typed.</string>
+    <string name="timeout_while_importing">Timeout while importing the database.</string>
+    <string name="sharing_database">Sharing database</string>
+    <string name="sharing_database_message">Sending database to new controller.</string>
+    <string name="importing_database">Importing database</string>
+    <string name="importing_database_waiting">Waiting for database to be received...</string>
+    <string name="importing_database_receiving">Receiving database. Please wait...</string>
+    <string name="database_received">Database received</string>
+    <string name="database_stored_in_the_cloud">Database stored in the cloud</string>
+    <string name="database_shared_correctly">Database shared correctly</string>
+    <string name="recovery_from_gateway">Recover place from gateway</string>
+
+
+    <!-- Pickers -->
+    <string name="select_image">Select image</string>
+    <string name="select_color">Select color</string>
+    <string name="max_areas_reached">Maximum areas reached. Deselect one area first.</string>
+    <string name="error_occurred">An error has occurred and the data was not updated.</string>
+    <string name="changes_applied">Data has been updated correctly.</string>
+    <string name="changes_in_progress">Changes in progress...</string>
+    <string name="area_not_found">Area not found</string>
+
+    <!-- Preference Activity -->
+    <string name="connection_channel">Connection channel</string>
+    <string name="bt_channel">Bluetooth channel</string>
+    <string name="channel">Channel</string>
+    <string name="manual">Manual</string>
+    <string name="autoconnect_bt">Autoconnect is only available for Bluetooth channel</string>
+    <string name="pick_channel">Pick a channel</string>
+    <string name="cloud_channel">Cloud channel</string>
+    <string name="gateway_channel">Gateway channel</string>
+    <string name="auto">Auto</string>
+    <string name="cloud_settings">Cloud settings</string>
+    <string name="tenant_id" translatable="false">Tenant ID</string>
+    <string name="mesh_id" translatable="false">Mesh ID</string>
+    <string name="site_id" translatable="false">Site ID</string>
+
+    <!-- Gateway -->
+    <string name="select_a_gateway">Select a gateway</string>
+    <string name="associated_gateways">Associated Gateways</string>
+    <string name="no_gateway_found">No gateways found around you. We will populate them as soon as we detect them.</string>
+    <string name="connection_to_the_cloud_title">Connection to the Cloud</string>
+    <string name="connection_to_the_cloud_message">Do you want to connect your place to the Cloud to be able to control it when you are not inside?</string>
+    <string name="connection_cloud_button">Connect to the cloud...</string>
+    <string name="connection_cloud_summary">Choose the gateway you want to use to control your devices from the cloud.</string>
+    <string name="associated_button">Associated Gateways</string>
+    <string name="associated_button_summary">Manage the Gateways you have associated.</string>
+    <string name="gateway_needs_to_finish_configuration">Gateway/Cloud configuration needs to be completed. Go to Settings and finish configuration in the Associated Gateways option.</string>
+    <string name="cloud_setup_requires_bt_channel_ready">You need bluetooth channel ready to setup a gateway and cloud.</string>
+    <string name="gateway_disassociate_requires_bt_channel_ready">You need bluetooth channel ready to disassociate a gateway.</string>
+    <string name="cloud_setup">Cloud Setup</string>
+    <string name="cloud_setup_request_gateway_uuid">Requesting gateway UUID</string>
+    <string name="cloud_setup_request_gateway_bridge">Connecting to bluetooth bridge</string>
+    <string name="cloud_setup_request_gateway_association">Associating with Gateway</string>
+    <string name="cloud_setup_request_gateway_cloud_tenantsite">Setting up Cloud</string>
+    <string name="cloud_setup_request_gateway_gateway_tenantsite">Setting up Gateway</string>
+    <string name="cloud_setup_request_gateway_ready">Ready for use</string>
+    <string name="you_need_gw_connection">You need to be connected to the Gateway Router to control your devices through Gateway.</string>
+    <string name="could_not_find_gw">Could not find any Gateway, ensure you are properly connected and try again later.</string>
+    <string name="there_is_a_gw_association_in_progress_already">There is a gateway association in progress already.</string>
+    <string name="there_is_no_gw_to_associate">There is no gateway to associate.</string>
+    <string name="tenant_updated_correctly">tenant updated correctly</string>
+    <string name="cloud_not_found">Cloud not found.</string>
+    <string name="gateway_not_found">Gateway not found. Ensure you are connected to the right Gateway WIFI.</string>
+    <string name="backup_database">Backup Database</string>
+    <string name="database_sync">Database Sync</string>
+    <string name="retrieving_database_from_gateway">Retrieving database from gateway.</string>
+    <string name="retrieving_database_from_cloud">Retrieving database from cloud.</string>
+    <string name="backing_up_database_in_gateway">Backing up database in gateway.</string>
+    <string name="backing_up_database_in_cloud">Backing up database in cloud.</string>
+    <string name="can_not_backup_without_gateway_enabled">You need to enable gateway/cloud to be able to backup database.</string>
+    <string name="can_not_retrieve_backup_without_gateway_enabled">You need to enable gateway/cloud to be able to retrieve backed up database.</string>
+    <string name="select_gateway_or_cloud_before_backup">You need to select the gateway or cloud channel before backing up.</string>
+    <string name="select_gateway_or_cloud_before_import_cloud">You need to select the gateway or cloud channel before restoring backed up database.</string>
+    <string name="recovering_place">Recovering Place</string>
+    <string name="retrieving_tenants_from_gateway">Retrieving tenants from gateway.</string>
+    <string name="retrieving_sites_from_gateway">Retrieving sites from gateway.</string>
+    <string name="place_passphrase_not_matching">Your current Network Key is incorrect, it does not match the saved details.</string>
+    <string name="place_recovered">Place recovered.</string>
+    <string name="gateway_file_version">gateway_file_version</string>
+
+
+
+    <!-- Gateway details -->
+    <string name="gateway_name">TITLE</string>
+    <string name="gateway_name_1">Gateway name</string>
+    <string name="cloud_state_information">Cloud state/information</string>
+    <string name="details">Details</string>
+    <string name="state_just_associated">Local Gateway or Cloud not configured</string>
+    <string name="state_local_gateway_enabled">Local Gateway enabled</string>
+    <string name="state_cloud_enabled">Cloud enabled</string>
+    <string name="configure_local_gateway">Enable Local Gateway</string>
+    <string name="configure_cloud">Enable Cloud</string>
+    <string name="delete_gateway">Delete Gateway</string>
+    <string name="delete_gateway_confirm_force">Gateway wasn\'t found. Do you want to delete it anyway?</string>
+    <string name="delete_gateway_confirm">Are you sure that you want to delete this gateway?</string>
+    <string name="resetting_gateway">Resetting your gateway. Please wait...</string>
+    <string name="deleting_gateway">Deleting gateway</string>
+    <string name="network_required_to_backup">Network connection is required to backup.</string>
+    <string name="network_required_to_enable_cloud">Network connection is required to enable cloud.</string>
+    <string name="network_required_to_control_cloud">Network connection is required to control mesh via cloud.</string>
+    <string name="network_required_to_remove_gateway">Network connection is required to remove gateway.</string>
+    <string name="required_connection_to_gw_for_removal">You need to be connected to the gateway you want to delete.</string>
+    <string name="csr_server_is_not_available">CSR Cloud is not available.</string>
+    <string name="recover_place_from_gateway">Recover place from gateway</string>
+
+    <!-- Developer -->
+    <string name="csrmesh_disconnect_bridge">Disconnect bridge</string>
+    <string name="csrmesh_disconnect_bridge_sure">Are you sure you want to disconnect with the bridge?</string>
+    <string name="csrmesh_cloud_category">CSRMesh Cloud</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="csrmesh_bridge_category">Connected bridges</string>
+    <string name="csrmesh_connect_bridge">Connect bridge</string>
+    <string name="csrmesh_set_cloud_url_title">Set cloud url:</string>
+    <string name="csrmesh_set_cloud_port_title">Set cloud port:</string>
+    <string name="csrmesh_set_cloud_appcode_title">Set cloud app code:</string>
+    <string name="csrmesh_set_cloud_url_summary">Summary</string>
+    <string name="csrmesh_list_bridges">List of bridges</string>
+    <string name="pref_cloud_key_url" translatable="false">pref_url_cloud</string>
+    <string name="pref_cloud_key_port" translatable="false">pref_port_cloud</string>
+    <string name="pref_cloud_key_appcode" translatable="false">pref_port_appcode</string>
+    <string name="pref_cloud_key_new_bridge" translatable="false">pref_new_bridge</string>
+    <string name="pref_key_list_bridges" translatable="false">pref_list_bridges</string>
+    <string name="error_port_can_only_contain_numbers">Port field can only contain numbers</string>
+
+    <!-- MainActivity -->
+    <string name="permissions_denied">App can\'t work with permission denied. Go to CSRmesh info and enable permissions.</string>
+
+    <!-- Events -->
+    <string name="setting_action">Setting up actions</string>
+    <string name="please_wait_action">Please wait whilst setting up action(s) on the device(s).</string>
+    <string name="intensity">Intensity</string>
+    <string name="validate">Validate</string>
+    <string name="event_created">Event created!</string>
+    <string name="event_updated">Event updated!</string>
+    <string name="event_error_creating">An error has occurred while creating the event</string>
+    <string name="event_error_updating">An error has occurred while updating the event</string>
+    <string name="event_error_deleting">An error has occurred while deleting the event</string>
+    <string name="name_before_continuing">Name the event before continuing</string>
+    <string name="select_devices_before_continuing">Select at least a device before continuing</string>
+    <string name="error_occurred_event">An error has occurred and the event couldn\'t be created</string>
+    <string name="create_event">Create event</string>
+    <string name="back">Back</string>
+    <string name="set_name">1- Set name</string>
+    <string name="set_action">2- Set action</string>
+    <string name="select_devices">3- Select devices</string>
+    <string name="your_event_name">Your event name</string>
+    <string name="set_start_time">4- Set start time</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="every">Every</string>
+    <string name="hour_s">Hour(s)</string>
+    <string name="monday">M</string>
+    <string name="tuesday">T</string>
+    <string name="wednesday">W</string>
+    <string name="thursday">T</string>
+    <string name="friday">F</string>
+    <string name="saturday">S</string>
+    <string name="sunday">S</string>
+</resources>

@@ -1,0 +1,4 @@
+include ':CSRmeshLibraryCommon'
+include ':CSRmeshLibrary'
+include ':app'
+rootProject.name = "Stupid CSR DEMO"
